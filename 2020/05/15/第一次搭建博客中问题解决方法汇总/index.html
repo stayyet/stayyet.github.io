@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Hexo">
+    <meta name="keywords" content="第一次搭建博客中问题解决方法汇总, Hexo">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Hexo</title>
+    <title>第一次搭建博客中问题解决方法汇总 | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">第一次搭建博客中问题解决方法汇总</h1>
                 </div>
             </div>
         </div>
@@ -436,9 +436,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/ways/">
+                                <span class="chip bg-color">ways</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -450,7 +454,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-13
+                    2020-05-15
                 </div>
                 
 
@@ -466,19 +470,19 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+                <h1 id="博客搭建问题汇总按时间顺序呈现"><a href="#博客搭建问题汇总按时间顺序呈现" class="headerlink" title="博客搭建问题汇总按时间顺序呈现"></a>博客搭建问题汇总按时间顺序呈现</h1><h2 id="nodejs调试及确认成功方法"><a href="#nodejs调试及确认成功方法" class="headerlink" title="nodejs调试及确认成功方法"></a>nodejs调试及确认成功方法</h2><ul>
+<li>nodejs<br>官网下载即可，本人速度还行  </li>
+<li>Git<br>建议在淘宝镜像源下载最新版<br>nodejs下载完成后创建一个文件夹，我放在我的D盘里，因为D盘比较大，我专门用来放游戏的，如果是系统盘512G或者1T的土豪当我没说<br>在这个文件夹中下载[hexo-script]的安装脚本<br>打开git bash然后执行命令行curl -O <a href="https://cdn.jsdelivr.net/gh/kjhuanhao/hexo-script@master/install.sh" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/kjhuanhao/hexo-script@master/install.sh</a>  </li>
+</ul>
+<p>在存放install.sh脚本的目录中,右键打开git bash然后运行以下命令:<br>source install.sh test_node<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-Llul9Kdh1NJmVlnXuGd%2F-Llum1fgCUk0Unm0jlVo%2F3.png?alt=media&token=6a788601-ff5f-4f61-8862-7b179074e1c2" alt=""><br>如果出现了上图，恭喜啦！nodejs百分之99已经OK了，不需要你捣鼓了。  </p>
+<h2 id="Git调试和确认成功方法"><a href="#Git调试和确认成功方法" class="headerlink" title="Git调试和确认成功方法"></a>Git调试和确认成功方法</h2><p><a href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html" target="_blank" rel="noopener">Git安装方法超详细</a><br>如果你想要检测git环境或者查看当前git的版本号,您可以在存放install.sh脚本的目录中,右键打开git bash运行以下命令:<br>source install.sh test_git<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluoKobHnM4js5SYkdo%2F-LluomhR8g4MupDKuwDk%2F4.png?alt=media&token=1e951d48-85c8-4abf-8d2e-ea48727dd5bb" alt=""><br>如果出现了上图，也恭喜啦！Git百分之99已经OK了，也不需要你捣鼓了。  </p>
+<h2 id="安装hexo博客"><a href="#安装hexo博客" class="headerlink" title="安装hexo博客"></a>安装hexo博客</h2><p>您需要在你创建的博客目录也就是存放install.sh脚本的目录中,右键打开git bash运行以下命令:<br>source install.sh hexo_win<br>此时不要急，等待下图的出现<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluplfJDETDQ1wIHNxR%2F-LlupnWqOZVWU6iL3uK9%2F5.png?alt=media&token=30690ad9-b4fb-4240-ad96-1ea7686d888c" alt=""><br>当您看到代码最后一行出现<code>Please run hexo s to check it out!</code>的提示,证明您已经安装成功,此时你可以运行hexo s 然后查看你的博客<br>先运行命令cd hexoblog<br>紧接着运行命令hexo s<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluplfJDETDQ1wIHNxR%2F-LluqmWs7L0rHAJhJkR-%2F6.png?alt=media&token=88e71510-22da-4c59-bd41-1d7bb2909436" alt=""><br>可以看到出现了一段地址:<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br>你直接点我这个就能进入你的本地博客了<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluplfJDETDQ1wIHNxR%2F-LlurN1aku8F_ZGR35Av%2F7.png?alt=media&token=c9b96207-b162-43de-839b-1837d1241566" alt="">  </p>
+<h2 id="生成SSH秘钥"><a href="#生成SSH秘钥" class="headerlink" title="生成SSH秘钥"></a>生成SSH秘钥</h2><p>关于Github的注册及库的创建比较基础，不做说明<br>为了撰写博客的库（repository）有格式要求：你的Github账户名.github.io<br><a href="https://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html" target="_blank" rel="noopener">Windows环境下生成SSH key且连接GitHub</a><br>这个教程有windows的教程及检验成功方法  </p>
+<h2 id="部署hexo博客"><a href="#部署hexo博客" class="headerlink" title="部署hexo博客"></a>部署hexo博客</h2><p>部署博客必要的配置，首先完成这个<br>首先你需要打开根目录配置文件_config.yml<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluvTLNmEKB-I1ZDiSA%2F-LluxHhrwiYvRhAnlHXs%2F11.png?alt=media&token=e5ccc9e5-a30f-4a56-86de-4bced0dae279" alt=""><br>找到最后一行,按照以下的格式修改即可<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluvTLNmEKB-I1ZDiSA%2F-LluyCdpQ92nd8tuqn9Z%2F22.png?alt=media&token=05f14980-032b-4997-b2b2-9bb31c28332d" alt=""><br>你只需要修改repo后面的信息即可<br>其实https的也行<br>您需要在你的博客目录也就是存放install.sh脚本的目录中,右键打开git bash运行以下命令:<br>source install.sh deploy<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LlurwQcZHGhMvMGz358%2F-LlutGTSONJsGgLT-HB3%2F8.png?alt=media&token=6b16f0f3-aaa4-4083-960c-e41031408d1a" alt=""><br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LlurwQcZHGhMvMGz358%2F-LlutGTSONJsGgLT-HB3%2F8.png?alt=media&token=6b16f0f3-aaa4-4083-960c-e41031408d1a" alt=""><br>你需要将up.sh复制到hexoblog文件,也就是复制到你的博客根目录下<br><img src="https://gblobscdn.gitbook.com/assets%2F-LlpfTEtpw-XHjloYx-t%2F-LluvTLNmEKB-I1ZDiSA%2F-LluzdSM_MrB7O9qCs1Z%2F9.png?alt=media&token=bce8b33c-c6ec-4242-80fb-a0ac97e99d1a" alt=""><br>然后在存放up.sh脚本的目录中,右键打开git bash运行以下命令:<br>source up.sh<br>之后即可自动部署到你的github或者coding上  </p>
+<h2 id="最后一步报错提示"><a href="#最后一步报错提示" class="headerlink" title="最后一步报错提示"></a>最后一步报错提示</h2><p>通过hexo d部署时报Error: Spawn failed错误:<br>通过Github点击右上角头像，菜单栏倒数第二的setting，点右边栏目中的email,去掉Keep my email addresses private前面的勾选  </p>
+<h2 id="超链接测试"><a href="#超链接测试" class="headerlink" title="超链接测试"></a>超链接测试</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">nodejs下载地址</a><br><a href="https://npm.taobao.org/mirrors/git-for-windows/v2.22.0.windows.1/Git-2.22.0-64-bit.exe" target="_blank" rel="noopener">Git国内镜像源快速下载</a></p>
+<h2 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h2><p><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2883447233,217451605&fm=26&gp=0.jpg" alt=""></p>
+<hr>
 
             </div>
             <hr/>
@@ -504,7 +508,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://stayyet.github.io/2020/05/13/hello-world/">https://stayyet.github.io/2020/05/13/hello-world/</a>
+                    <a href="https://stayyet.github.io/2020/05/15/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/">https://stayyet.github.io/2020/05/15/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -541,7 +545,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/ways/">
+                                    <span class="chip bg-color">ways</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -707,9 +715,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/05/15/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B8%AD%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E6%B1%87%E6%80%BB/">
                     <div class="card-image">
@@ -729,9 +738,9 @@ Git建议在淘宝镜像源下载最新版nodejs下载完成后创建一个文�
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -740,6 +749,7 @@ Git建议在淘宝镜像源下载最新版nodejs下载完成后创建一个文�
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -755,7 +765,7 @@ Git建议在淘宝镜像源下载最新版nodejs下载完成后创建一个文�
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/05/13/hello-world/">
@@ -785,7 +795,6 @@ Git建议在淘宝镜像源下载最新版nodejs下载完成后创建一个文�
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
